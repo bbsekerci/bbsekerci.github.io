@@ -1,0 +1,46 @@
+:root {
+    --primary: #333333;
+    --secondary: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    color: var(--secondary);
+    background-color: var(--primary);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+a {
+    color: var(--secondary);
+    border: 1rem solid #FFA400;
+    padding: 3rem;
+    text-decoration: none;
+    font-size: 3.2rem;
+    align-self: center;
+}
