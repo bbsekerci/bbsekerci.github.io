@@ -44,3 +44,8 @@ a {
     font-size: 3.2rem;
     align-self: center;
 }
+
+a:hover {
+    background-color: #444444;
+    border: 1rem solid #ffb834;
+}
